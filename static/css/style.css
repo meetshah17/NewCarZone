@@ -1098,10 +1098,7 @@ input[type=checkbox]:checked + label:before {
     color: #fff;
 }
 
-.pattern-overlay {
-    /*background-color: rgba(0, 0, 0, 0.35);
-    height: 100vh;*/
-}
+
 
 .banner_video_bg .carousel-item {
     height: 100vh;
@@ -5924,15 +5921,13 @@ footer {
     background-position: 0 0;
 }
 
-.range-slider .ui-slider .ui-slider-handle {
-}
+
 
 .range-slider .ui-widget-content {
     background-color: #ccc;
 }
 
-.range-slider .ui-widget-header {
-}
+
 
 .range-slider .ui-slider.ui-state-disabled .ui-slider-handle, .range-slider .ui-slider.ui-state-disabled .ui-slider-range {
     filter: inherit;
@@ -8104,10 +8099,7 @@ table {
 }
 
 @media all and (min-width: 992px) {
-    .banner img {
-        /*animation: bgburnsEast 25s linear infinite alternate;
-        -webkit-animation: bgburnsEast 25s linear infinite alternate;*/
-    }
+    
 
     .dropdown:hover > .dropdown-menu {
         display: block;
@@ -8652,9 +8644,7 @@ table {
         margin-bottom: 45px;
     }
 
-    .banner .carousel-content.banner-info {
-        /*top: 27%;*/
-    }
+    
 
     .inline-search-area .btn-search{
         height: 45px;
