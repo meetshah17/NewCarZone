@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-xq@^$&$xtuyk1iyo0cy%4m0r-i*bg7x*wct3_5q&=dunsg6&qs'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [' git.heroku.com/desolate-savannah-87975.git']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
