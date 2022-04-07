@@ -25,9 +25,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-xq@^$&$xtuyk1iyo0cy%4m0r-i*bg7x*wct3_5q&=dunsg6&qs'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['9422-49-36-90-100.ngrok.io']
+CSRF_TRUSTED_ORIGINS=['https://9422-49-36-90-100.ngrok.io']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
@@ -142,7 +143,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR/'static'),
     os.path.join(BASE_DIR/'static/img'),
