@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-xq@^$&$xtuyk1iyo0cy%4m0r-i*bg7x*wct3_5q&=dunsg6&qs
 DEBUG = False
 
 ALLOWED_HOSTS = ['desolate-savannah-87975.herokuapp.com','127.0.0.1']
-# CSRF_TRUSTED_ORIGINS=['https://55be-49-36-90-100.ngrok.io']
+# CSRF_TRUSTED_ORIGINS=['https://937b-49-36-92-246.ngrok.io']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
